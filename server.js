@@ -2,7 +2,7 @@
 
 var
 	socks5 = require('simple-socks'),
-	server = socks5.createServer().listen(1080);
+	server = socks5.createServer().listen(process.env.PORT || 1080);
 
 // When a reqest arrives for a remote destination
 server.on('proxyConnect', function (info, destination) {
