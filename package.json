@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "simple-socks": "^0.2.7",
+    "simple-socks": "^0.2.7"
   }
 }
